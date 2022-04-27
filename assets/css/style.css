@@ -2,36 +2,86 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+body {
+    width: 99%;
+}
+
 header {
     position: fixed;
-    width: 100%;
+    width: 99%;
     top: 0;
-}
-h1 {
+    margin-top: 5px;
     color: midnightblue;
-    background-color: lightcyan;
+    background-color: lightgreen;
     border-style: solid;
     border-color: darkblue;
+}
+
+h1, h3 {
     font-weight: bolder;
     text-align: center;
 }
+
 main {
     background-color: antiquewhite;
     border-style: solid;
-    border-color: bisque;
+    border-color: darkgoldenrod;
     padding: 10px;
-}
-h4 {
-    font-style: italic;
-}
-main {
     padding-top: 0px;
     padding-bottom: 30px;
 }
+
+footer {
+    color: midnightblue;
+    background-color: lightgreen;
+    border-style: solid;
+    border-color: darkblue;
+    margin-top: 10px;
+}
+
+h4 {
+    font-style: italic;
+}
+
+nav {
+    text-align: right;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+}
+
 .inputBlock {
    margin-top: 30px;
 }
+
+.navButton {
+    box-align: right;
+    background-color: beige;
+    padding: 5px;
+    border-style: solid;
+    border-color: darkblue;
+    margin: 5px;
+}
+
+.navText {
+    text-decoration: none;
+}
+
 #pictureBox {
-    padding: 10px;
-    margin-top: 80px;
+    background-color: azure;
+    border-style: solid;
+    border-color: dodgerblue;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 130px;
+    margin-bottom: 10px;
+    }
+
+#sendButton {
+    margin-top: 15px;
 }
